@@ -29,3 +29,11 @@ User tries to login with both fields empty.
 
 TS-07  
 User who is not logged in tries to access inventory page directly.
+
+## Edge Scenario
+
+TS-08
+User attemps login with leading or trailing spaces in the username field.
+
+TS-09
+User attemps login with extremely long username input exceeding normal length
